@@ -1,4 +1,5 @@
 body {
+  color: #40514E;
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
@@ -18,6 +19,7 @@ h2 {
   color: #66BFBF;
   font-weight: normal;
   font-family: 'Montserrat', sans-serif;
+  padding-bottom: 10px;
 }
 
 h3 {
@@ -27,49 +29,128 @@ h3 {
 
 a {
   color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
 }
 
-div {
-  position: relative;
+a:hover {
+  color: #EAF6F6;
+}
+
+.footer-link {
+  margin: 10px 20px;
+}
+
+p {
+  line-height: 2;
+}
+
+div {}
+
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
 }
 
 .top-container {
   background-color: #E4F9F5;
 }
 
+.profile {
+  margin: 100px 0;
+}
+
+.intro {
+  width: 50%;
+  margin: auto;
+}
+
 .middle-container {}
 
-.bottom-container {}
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
 
 .cloud1 {
   position: absolute;
   right: 300px;
-  top: 50px;
+  top: 40px;
 }
 
 .cloud2 {
   position: absolute;
-  left: 300px;
-  top: 400px;
+  left: 250px;
+  top: 300px;
 }
 
 .skill-android {
-  width: 80%;
+  width: 60%;
   margin: 80px auto 80px auto;
-  text-align: left;
   line-height: 2;
+  text-align: left;
 }
 
 .skill-flutter {
-  width: 80%;
-  margin: 80px auto 80px auto;
-  text-align: left;
+  width: 60%;
+  margin: 200px auto 80px auto;
   line-height: 2;
+  text-align: left;
 }
 
 .skill-web {
-  width: 80%;
-  margin: 80px auto 80px auto;
-  text-align: left;
+  width: 60%;
+  margin: 200px auto 80px auto;
   line-height: 2;
+  text-align: left;
+}
+
+.android-img {
+  float: left;
+  margin-right: 30px;
+}
+
+.flutter-img {
+  float: right;
+  margin-left: 30px;
+}
+
+.web-img {
+  float: left;
+  margin-right: 30px;
+}
+
+.myButton {
+  box-shadow: 0px 10px 14px -7px #276873;
+  background: linear-gradient(to bottom, #11999e 5%, #11cdd4 100%);
+  background-color: #11999e;
+  border-radius: 8px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 13px 32px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #3d768a;
+  margin-bottom: 60px;
+}
+
+.myButton:hover {
+  background: linear-gradient(to bottom, #11cdd4 5%, #11999e 100%);
+  background-color: #11cdd4;
+}
+
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75em;
+  padding: 20px 0;
 }
